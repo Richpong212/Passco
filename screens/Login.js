@@ -27,7 +27,9 @@ const Login = () => {
 
       <Text style={{marginVertical: 15}}>OR</Text>
 
-      <TouchableOpacity style={styles.btn2}>
+      <TouchableOpacity style={styles.btn2}
+        onPress={() => {}}
+      >
         <Text style={{color: 'white', fontSize: 16, fontWeight: '600'}}>CHECKOUT DEMO</Text>
       </TouchableOpacity>
 
